@@ -208,6 +208,22 @@ span{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    background-color: white;
 }
 
+
+/*Responsive footer*/
+
+/*Tablets*/
+
+@media (min-width: 500px) and (max-width: 1100px){
+    .para{
+        width: 50%;
+        gap: 40px;
+    }
+    .footer-image{
+        width: 50%;
+    }
+    .phone, .email, .footer-logo{
+        gap: 15px;
+    }
+}
