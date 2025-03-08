@@ -266,5 +266,23 @@ span{
         height: 50%;
         width: 100%;
     }
+}
 
+/*Responsive 'My Work'*/
+
+/*Tablets*/
+@media (min-width: 500px) and (max-width: 1100px){
+    .semicontainer2{
+        padding: 35px;
+        align-items: center;
+        gap: 35px;
+    }
+    .pCnt{
+        gap: 10%;
+        justify-content: center;
+    }
+    .projects{
+        max-height: 30%;
+        width: 40%;
+    }
 }
